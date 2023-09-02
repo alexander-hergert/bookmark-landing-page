@@ -1,6 +1,6 @@
 # Frontend Mentor - Bookmark landing page
 
-![Design preview for the Bookmark landing page coding challenge](/design/desktop-preview.jpg)
+![Design preview for the Bookmark landing page coding challenge](public/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -33,10 +33,12 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Links
 
-- [Solution URL:](https://github.com/alexander-hergert/bookmark-landing-page)
-- [Live Site URL:](https://a-bookmark-landing-page.netlify.app)
+- Solution URL: [Solution URL](https://github.com/alexander-hergert/bookmark-landing-page)
+- Live Site URL: [Live Site URL](https://a-hergert-bookmark-landing-page.netlify.app)
 
 ## My process
+
+- Add basic structure and create components
 
 ### Built with
 
