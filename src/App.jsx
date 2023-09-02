@@ -13,7 +13,6 @@ function App() {
       <Navbar />
       <Header />
       <main>
-        <h1 className="text-center font-bold red">Bookmark landing page</h1>
         <Features />
         <Download />
         <FAQ />

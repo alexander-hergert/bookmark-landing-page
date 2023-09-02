@@ -12,16 +12,19 @@
 }
 
 :root {
-  --red: red;
 }
 
-/* Example class */
-.red {
-  color: var(--red);
+.color-invert {
+  filter: brightness(0) saturate(100%) invert(95%) sepia(95%) saturate(0%)
+    hue-rotate(109deg) brightness(106%) contrast(105%);
 }
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
 }
 
 body {
