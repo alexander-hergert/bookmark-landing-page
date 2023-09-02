@@ -20,7 +20,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn max-md:hidden">LOGIN</a>
+        <a className="btn max-md:hidden bg-primary-soft-red text-white w-32">
+          LOGIN
+        </a>
       </div>
       <button
         className="btn bg-white border-none md:hidden"
@@ -28,10 +30,10 @@ const Navbar = () => {
       >
         <img src="/images/icon-hamburger.svg" alt="icon-menu" />
       </button>
-      <dialog id="my_modal_3" className="modal">
+      <dialog id="my_modal_3" className="modal md:hidden">
         <form
           method="dialog"
-          className="pt-10 modal-box rounded-none w-full min-h-screen bg-opacity-90 bg-neutral-very-dark-blue"
+          className="absolute pt-10 modal-box rounded-none w-[100vw] min-h-screen bg-opacity-90 bg-neutral-very-dark-blue"
         >
           <button className="btn btn-sm btn-circle btn-ghost absolute right-4 top-8">
             <img src="/images/icon-close.svg" alt="icon-close" />
@@ -51,7 +53,7 @@ const Navbar = () => {
             <li className="py-5 tracking-widest border-t-0 border-y border-neutral-grayish-blue">
               <a className="text-2xl">CONTACT</a>
             </li>
-            <li className="py-3 tracking-widest border-2 rounded-lg mt-8">
+            <li className="cursor-pointer py-3 tracking-widest border-2 rounded-lg mt-8">
               <a className="text-2xl">LOGIN</a>
             </li>
           </ul>

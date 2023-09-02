@@ -40,6 +40,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 - Add basic structure and create components
 - Style NavBar using daisyUI. Create responsiveness and modal menu. Create clickable menu.
+- Add Header using Tailwind-CSS. Make it responsive.
 
 ### Built with
 

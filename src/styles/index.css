@@ -13,10 +13,15 @@
 
 :root {
 }
+/*Own classes*/
 
 .color-invert {
   filter: brightness(0) saturate(100%) invert(95%) sepia(95%) saturate(0%)
     hue-rotate(109deg) brightness(106%) contrast(105%);
+}
+
+.brd-rad-l{
+  border-bottom-left-radius: 6rem;
 }
 
 * {
