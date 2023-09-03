@@ -6,8 +6,8 @@
 
 /*own tailwind classes go here */
 @layer components {
-  .classExample {
-    @apply py-1;
+  .features::before {
+    @apply p-1;
   }
 }
 
@@ -20,8 +20,12 @@
     hue-rotate(109deg) brightness(106%) contrast(105%);
 }
 
-.brd-rad-l{
+.brd-rad-l {
   border-bottom-left-radius: 6rem;
+}
+
+.brd-rad-r {
+  border-bottom-right-radius: 6rem;
 }
 
 * {
