@@ -42,6 +42,8 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - Style NavBar using daisyUI. Create responsiveness and modal menu. Create clickable menu.
 - Add Header using Tailwind-CSS. Make it responsive.
 - Add Features using Tailwind-CSS. Make it responsive.
+- Add Download using Tailwind-CSS and DaisyUI. Make it responsive.
+- Add FAQ using Tailwind-CSS and DaisyUI. Overiding classes. Make it responsive.
 
 ### Built with
 

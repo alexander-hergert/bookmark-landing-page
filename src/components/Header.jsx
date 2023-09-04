@@ -21,7 +21,7 @@ const Header = () => {
         </p>
         <div className="flex gap-4 justify-center md:justify-start">
           <a
-            className="btn shadow-xl capitalize bg-primary-soft-blue text-white"
+            className="btn shadow-xl capitalize bg-primary-soft-blue border-none text-white"
             href=""
           >
             Get it on Chrome

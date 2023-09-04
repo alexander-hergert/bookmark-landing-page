@@ -28,7 +28,7 @@ const Download = () => {
             </p>
             <div className="bg-image pt-10 w-full h-full"></div>
             <div className="card-actions">
-              <button className="capitalize btn btn-primary mb-5 text-white">
+              <button className="capitalize btn bg-primary-soft-blue px-10 mb-5 text-white">
                 Add & Install Extension
               </button>
             </div>
@@ -49,7 +49,7 @@ const Download = () => {
             </p>
             <div className="bg-image pt-10 w-full h-full"></div>
             <div className="card-actions">
-              <button className="capitalize btn btn-primary mb-5 text-white">
+              <button className="capitalize btn bg-primary-soft-blue px-10 mb-5 text-white">
                 Add & Install Extension
               </button>
             </div>
@@ -70,7 +70,7 @@ const Download = () => {
             </p>
             <div className="bg-image pt-10 w-full h-full"></div>
             <div className="card-actions">
-              <button className="capitalize btn btn-primary mb-5 text-white">
+              <button className="capitalize btn bg-primary-soft-blue px-10 mb-5 text-white">
                 Add & Install Extension
               </button>
             </div>
