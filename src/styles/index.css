@@ -6,8 +6,8 @@
 
 /*own tailwind classes go here */
 @layer components {
-  .features::before {
-    @apply p-1;
+  .bg-image {
+    @apply bg-[url('images/bg-dots.svg')] bg-no-repeat bg-contain bg-center;
   }
 }
 

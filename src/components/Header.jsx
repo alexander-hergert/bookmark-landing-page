@@ -3,13 +3,13 @@ import React from "react";
 const Header = () => {
   return (
     <header className="md:flex md:flex-row-reverse items-center">
-      <figure className="overflow-hidden md:drop-shadow-2xl md:min-w-[50vw]">
+      <figure className=" relative overflow-hidden md:drop-shadow-2xl md:min-w-[50vw]">
         <img
           className="md:w-large md:relative m-auto md:mt-10 lg:w-very-large"
           src="/images/illustration-hero.svg"
           alt="hero"
         />
-        <div className=" absolute top-40 md:top-28 lg:top-36 xl:top-44 left-1/4 z-[-1] w-full h-1/3 md:h-[26vh] lg:h-[30vh] xl:h-[34vh] bg-primary-soft-blue brd-rad-l"></div>
+        <div className=" absolute top-28 md:top-28 lg:top-36 xl:top-44 left-1/4 z-[-1] w-full h-2/3 md:h-[26vh] lg:h-[30vh] xl:h-[34vh] bg-primary-soft-blue brd-rad-l"></div>
       </figure>
       <article className="p-10 mt-4 md:min-w-[50vw]">
         <h1 className="text-3xl text-center font-bold md:text-left">
