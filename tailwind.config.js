@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       width: {
-        small: "10rem",
         large: "30rem",
         "very-large": "40rem",
       },

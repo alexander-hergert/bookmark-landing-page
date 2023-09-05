@@ -38,11 +38,7 @@ const Navbar = () => {
           <button className="btn btn-sm btn-circle btn-ghost absolute right-4 top-8">
             <img src="/images/icon-close.svg" alt="icon-close" />
           </button>
-          <img
-            className="color-invert"
-            src="/images/logo-bookmark.svg"
-            alt="logo"
-          />
+          <img src="/images/logo-bookmark-modal.svg" alt="logo" />
           <ul className="text-white text-center mt-10">
             <li className="py-5 tracking-widest border-y border-neutral-grayish-blue">
               <a className="text-2xl">FEATURES</a>
