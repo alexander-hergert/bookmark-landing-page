@@ -44,6 +44,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - Add Features using Tailwind-CSS. Make it responsive.
 - Add Download using Tailwind-CSS and DaisyUI. Make it responsive.
 - Add FAQ using Tailwind-CSS and DaisyUI. Overiding classes. Make it responsive.
+- Add Contact using Tailwind-CSS and DaisyUI. Make it responsive.
 
 ### Built with
 

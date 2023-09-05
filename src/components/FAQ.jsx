@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <section>
+    <section className="mb-28">
       <article className="p-5">
         <h2 className="text-center font-bold text-xl">
           Frequently Asked Questions

@@ -43,6 +43,16 @@
   border-bottom-right-radius: 6rem;
 }
 
+@media screen and (min-width: 768px) {
+  .small {
+    max-width: 10rem;
+  }
+
+  .large {
+    max-width: 20rem;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
