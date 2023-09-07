@@ -47,6 +47,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - Add Contact using Tailwind-CSS and DaisyUI. Make it responsive.
 - Add Footer using Tailwind-CSS and DaisyUI. Make it responsive.
 - Add Navbar active styles and refactor code. Separate into Modal component.
+- Add active styles to Header.
 
 ### Built with
 

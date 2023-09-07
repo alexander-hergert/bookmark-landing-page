@@ -3,7 +3,7 @@ import Modal from "./Modal";
 
 const Navbar = () => {
   return (
-    <nav className="navbar p-5 md:px-16">
+    <nav className="navbar p-5 md:px-[10%]">
       <div className="navbar-start">
         <img src="/images/logo-bookmark.svg" alt="logo" />
       </div>
@@ -11,24 +11,27 @@ const Navbar = () => {
         <div className="navbar-center hidden md:flex">
           <ul className="menu menu-horizontal gap-5 px-1">
             <li>
-              <a className="hover:bg-white hover:text-primary-soft-red">
+              <a href="" className="hover:bg-white hover:text-primary-soft-red">
                 FEATURES
               </a>
             </li>
             <li>
-              <a className="hover:bg-white hover:text-primary-soft-red">
+              <a href="" className="hover:bg-white hover:text-primary-soft-red">
                 PRICING
               </a>
             </li>
             <li className="mr-10">
-              <a className="hover:bg-white hover:text-primary-soft-red">
+              <a href="" className="hover:bg-white hover:text-primary-soft-red">
                 CONTACT
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <a className="hover:bg-white border-2 shadow-lg hover:text-primary-soft-red hover:border-primary-soft-red btn max-md:hidden bg-primary-soft-red text-white w-32">
+          <a
+            href=""
+            className="hover:bg-white border-2 shadow-lg hover:text-primary-soft-red hover:border-primary-soft-red btn max-md:hidden bg-primary-soft-red text-white w-32"
+          >
             LOGIN
           </a>
         </div>
