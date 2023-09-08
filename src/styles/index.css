@@ -30,14 +30,6 @@
   margin-right: 0;
 }
 
-.brd-rad-l {
-  border-bottom-left-radius: 6rem;
-}
-
-.brd-rad-r {
-  border-bottom-right-radius: 6rem;
-}
-
 @media screen and (min-width: 768px) {
   .small {
     max-width: 10rem;

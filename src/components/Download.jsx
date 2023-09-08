@@ -2,7 +2,7 @@ import React from "react";
 
 const Download = () => {
   return (
-    <section className="p-5">
+    <section className="p-5 w-[100vw]">
       <article className="my-10">
         <h2 className="text-center font-bold text-xl">
           Download the extension

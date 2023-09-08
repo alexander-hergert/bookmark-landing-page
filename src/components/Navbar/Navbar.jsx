@@ -3,7 +3,7 @@ import Modal from "./Modal";
 
 const Navbar = () => {
   return (
-    <nav className="navbar p-5 md:px-[10%]">
+    <nav className="navbar p-5 md:px-[10%] w-[100vw]">
       <div className="navbar-start">
         <img src="/images/logo-bookmark.svg" alt="logo" />
       </div>
