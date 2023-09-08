@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [isError, setError] = useState(false);
+  const regEmail = /[A-Za-z0-9\-\_\.\+]{1,64}@[A-Za-z0-9\-\_\.]+\.[a-zA-Z]+/;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const input = e.target[0].value;
+    if (!regEmail.test(input)) {
+      setError(true);
+    } else {
+      e.target.submit();
+    }
+  };
+
+  const handleFocus = () => {
+    setError(false);
+  };
+
   return (
     <section className="bg-primary-soft-blue py-14 w-[100vw]">
       <div className="px-20">
@@ -8,19 +25,38 @@ const Contact = () => {
           <p className="text-sm mb-4 tracking-widest">
             35,000 + ALREADY JOINED
           </p>
-          <h2 className="md:text-2xl">STAY up-to-date with what we're doing</h2>
+          <h2 className="md:text-2xl">Stay up-to-date with what we're doing</h2>
         </article>
         <form
-          className="  flex flex-col md:flex-row md:gap-3 justify-center items-center w-full"
+          onSubmit={handleSubmit}
+          className="flex flex-col md:flex-row md:gap-5 justify-center items-start w-full"
           action=""
         >
-          <input
-            type="text"
-            placeholder="Enter your email address"
-            className="input input-bordered mb-4 md:m-0 w-full large"
-          />
+          <div className=" md:m-0 w-full md:max-w-[20rem]">
+            <input
+              onFocus={handleFocus}
+              aria-label="email"
+              type="text"
+              placeholder="Enter your email address"
+              className={`${
+                isError
+                  ? "error mb-0 border-2 border-primary-soft-red rounded-b-none"
+                  : "mb-4"
+              } input input-bordered w-full`}
+            />
+            {isError && (
+              <div
+                className={`${
+                  isError ? "mb-4 py-1 error " : ""
+                } relative text-white italic rounded-b-lg bg-primary-soft-red w-full px-2 text-sm mt-0`}
+              >
+                Whoops, make sure it's an email
+              </div>
+            )}
+          </div>
           <button
-            className="btn border-none w-full small bg-primary-soft-red text-white"
+            className="btn border-none w-full md:max-w-[10rem] bg-primary-soft-red text-white
+            hover:bg-white hover:text-primary-soft-red hover:border-solid hover:border-2 hover:border-primary-soft-red"
             href=""
           >
             Contact Us
