@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FeaturesTitle from "./FeaturesTitle";
-import FeatureTabs from "./FeatureTabs";
+import FeatureTabs from "./FeatureTabs/FeatureTabs";
 import FeatureDetails from "./FeatureDetails/FeatureDetails";
 
 const Features = () => {

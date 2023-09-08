@@ -1,6 +1,6 @@
 import React from "react";
 import Tab from "./Tab";
-import { tabs } from "../../data";
+import { tabs } from "../../../data";
 
 const FeatureTabs = ({ handleClick, selectedFeature }) => {
   return (
