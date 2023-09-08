@@ -7,7 +7,7 @@ const Card = ({ title, src, alt, version }) => {
   if (alt === "opera-icon") position = "md:relative md:top-10";
 
   return (
-    <div className={`m-10 card w-80 bg-base-100 shadow-xl ${position}`}>
+    <div className={`md:min-w-[14rem] m-5 card w-80 bg-base-100 shadow-xl ${position}`}>
       <figure className="px-10 pt-10">
         <img src={src} alt={alt} className="rounded-xl" />
       </figure>
@@ -18,7 +18,7 @@ const Card = ({ title, src, alt, version }) => {
         <div className="card-actions">
           <a
             href=""
-            className="capitalize btn bg-primary-soft-blue px-10 mb-5 text-white
+            className="px-10 md:px-2 lg:px-10 btn bg-primary-soft-blue mb-5 text-white
             hover:bg-white hover:text-primary-soft-blue hover:border-2 hover:border-primary-soft-blue"
           >
             Add & Install Extension

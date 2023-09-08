@@ -19,6 +19,7 @@
   margin-right: 18px;
   color: white;
   transform: rotate(0deg);
+  top: 25%;
 }
 
 .collapse-arrow:not(.collapse-close)
@@ -28,6 +29,7 @@
   filter: brightness(0) saturate(100%) invert(61%) sepia(53%) saturate(5064%)
     hue-rotate(323deg) brightness(96%) contrast(102%);
   margin-right: 0;
+  top: 50%
 }
 
 @media screen and (min-width: 768px) {
@@ -46,6 +48,7 @@
 
 a {
   cursor: pointer;
+  transition: 0.1s;
 }
 
 body {

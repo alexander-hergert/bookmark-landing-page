@@ -57,3 +57,34 @@ export const download = [
     version: `Minimum version 46`,
   },
 ];
+
+export const faq = [
+  {
+    id: nanoid(),
+    question: "What is Bookmark?",
+    answer: `Bookmark is a digital or physical marker used to save and easily
+    access a specific location or webpage.`,
+  },
+  {
+    id: nanoid(),
+    question: "How can I request a new browser?",
+    answer: `You can request a new browser by downloading one from a trusted
+                source or by installing an alternative browser through your
+                device's app store or official website.`,
+  },
+  {
+    id: nanoid(),
+    question: "Is there a mobile app?",
+    answer: `Yes, there is a mobile app available for download. You can find
+                it on the app store or the official website.`,
+  },
+  {
+    id: nanoid(),
+    question: "What about other Chromium browsers?",
+    answer: `Other Chromium-based browsers offer similar features and
+                performance to Google Chrome due to their shared underlying
+                technology. Some popular options include Microsoft Edge, Brave,
+                and Opera. You can choose one that best suits your preferences
+                and needs.`,
+  },
+];

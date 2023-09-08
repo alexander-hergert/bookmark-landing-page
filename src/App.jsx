@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header";
 import Features from "./components/Features/Features";
 import Download from "./components/Download/Download";
-import FAQ from "./components/FAQ";
+import FAQ from "./components/FAQ/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 

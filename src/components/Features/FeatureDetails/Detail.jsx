@@ -30,7 +30,8 @@ const Detail = ({ title, src, content }) => {
         </p>
         <div className="max-md:hidden flex gap-4 justify-center md:justify-start">
           <a
-            className="btn shadow-xl capitalize bg-primary-soft-blue text-white"
+            className="btn shadow-xl capitalize bg-primary-soft-blue text-white
+            hover:bg-white hover:text-primary-soft-blue hover:border-2 hover:border-primary-soft-blue"
             href=""
           >
             More Info

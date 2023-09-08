@@ -48,8 +48,9 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - Add Footer using Tailwind-CSS and DaisyUI. Make it responsive.
 - Add Navbar active styles and refactor code. Separate into Modal component.
 - Add active styles to Header.
-- Refactor Features component. Create FeaturesTitle, FeatureTabs, Tabs, FeatureDetails, Detail. Fix styles and responsivenes.
+- Refactor Features component. Create FeaturesTitle, FeatureTabs, Tabs, FeatureDetails, Detail. Fix styles and responsiveness.
 - Refactor Download section. Create Card component.
+- Refactor FAQ and create FAQItem. Change styles for responsiveness and active states.
 
 ### Built with
 
