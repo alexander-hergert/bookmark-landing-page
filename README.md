@@ -52,6 +52,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - Refactor Download section. Create Card component.
 - Refactor FAQ and create FAQItem. Change styles for responsiveness and active states.
 - Add active styles and functionality to Contact.
+- Add footer active states and change some styles on Contact component.
 
 ### Built with
 

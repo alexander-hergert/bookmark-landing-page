@@ -7,11 +7,11 @@
 /*own tailwind classes go here */
 @layer components {
   .bg-image {
-    @apply bg-[url('images/bg-dots.svg')] bg-no-repeat bg-contain bg-center;
+    @apply bg-[url('/images/bg-dots.svg')] bg-no-repeat bg-contain bg-center;
   }
 
   .error::after {
-    @apply absolute right-4 bottom-10 block content-[""] bg-[url('images/icon-error.svg')] bg-contain w-[20px] h-[20px];
+    @apply absolute right-4 bottom-10 block content-[""] bg-[url('/images/icon-error.svg')] bg-contain w-[20px] h-[20px];
   }
 }
 
@@ -34,6 +34,11 @@
     hue-rotate(323deg) brightness(96%) contrast(102%);
   margin-right: 0;
   top: 50%;
+}
+
+.footer-link:hover {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(53%) saturate(5064%)
+    hue-rotate(323deg) brightness(96%) contrast(102%);
 }
 
 * {

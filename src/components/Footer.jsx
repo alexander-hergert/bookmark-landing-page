@@ -12,22 +12,36 @@ const Footer = () => {
           />
           <ul className="text-center text-sm py-5 md:flex md:flex-row md:gap-5">
             <li>
-              <a href="">FEATURES</a>
+              <a href="" className="hover:text-primary-soft-red">
+                FEATURES
+              </a>
             </li>
             <li className="py-5 md:py-0">
-              <a href="">PRICING</a>
+              <a href="" className="hover:text-primary-soft-red">
+                PRICING
+              </a>
             </li>
             <li>
-              <a href="">CONTACT</a>
+              <a href="" className="hover:text-primary-soft-red">
+                CONTACT
+              </a>
             </li>
           </ul>
         </article>
         <article className="flex items-center mt-5 md:mt-0 gap-5">
           <a href="">
-            <img src="/images/icon-facebook.svg" alt="facebook" />
+            <img
+              src="/images/icon-facebook.svg"
+              alt="facebook"
+              className="footer-link"
+            />
           </a>
           <a href="">
-            <img src="/images/icon-twitter.svg" alt="twitter" />
+            <img
+              src="/images/icon-twitter.svg"
+              alt="twitter"
+              className="footer-link"
+            />
           </a>
         </article>
       </div>

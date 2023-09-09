@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-primary-soft-blue py-14 w-[100vw]">
+    <section className="bg-primary-soft-blue py-14 w-[100vw] h-[24rem] md:h-[22rem]">
       <div className="px-20">
         <article className="text-center text-white py-10 w-full">
           <p className="text-sm mb-4 tracking-widest">
@@ -48,7 +48,7 @@ const Contact = () => {
               <div
                 className={`${
                   isError ? "mb-4 py-1 error " : ""
-                } relative text-white italic rounded-b-lg bg-primary-soft-red w-full px-2 text-sm mt-0`}
+                }  text-white italic rounded-b-lg bg-primary-soft-red w-full px-2 text-sm mt-0`}
               >
                 Whoops, make sure it's an email
               </div>
