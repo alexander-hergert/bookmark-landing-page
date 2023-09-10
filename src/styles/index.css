@@ -11,7 +11,7 @@
   }
 
   .error::after {
-    @apply absolute right-4 bottom-10 block content-[""] bg-[url('/images/icon-error.svg')] bg-contain w-[20px] h-[20px];
+    @apply absolute right-4 bottom-14 block content-[""] bg-[url('/images/icon-error.svg')] bg-contain w-[20px] h-[20px];
   }
 }
 

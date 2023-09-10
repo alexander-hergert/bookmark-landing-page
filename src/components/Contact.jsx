@@ -32,7 +32,7 @@ const Contact = () => {
           className="flex flex-col md:flex-row md:gap-5 justify-center items-start w-full"
           action=""
         >
-          <div className=" md:m-0 w-full md:max-w-[20rem]">
+          <div className=" relative md:m-0 w-full md:max-w-[20rem]">
             <input
               onFocus={handleFocus}
               aria-label="email"
