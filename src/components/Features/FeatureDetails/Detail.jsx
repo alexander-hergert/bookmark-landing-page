@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeLeft, fadeRight } from "../../../animations";
+import { fadeLeft, fadeIn } from "../../../animations";
 
 const Detail = ({ title, src, content }) => {
   return (
@@ -33,11 +33,11 @@ const Detail = ({ title, src, content }) => {
         initial="hidden"
         whileInView={"visible"}
         viewport={{ once: true }}
-        variants={fadeRight}
+        variants={fadeIn}
         className="p-10 mt-4 md:min-w-[50vw]"
       >
-        <h2 className="text-3xl text-center font-bold md:text-left">{title}</h2>
-        <p className="md:text-left text-neutral-grayish-blue text-center my-6">
+        <h2 className="text-xl text-center font-bold md:text-left">{title}</h2>
+        <p className="md:text-left md:w-[75%] text-neutral-grayish-blue text-center my-6">
           {content}
         </p>
         <div className="max-md:hidden flex gap-4 justify-center md:justify-start">

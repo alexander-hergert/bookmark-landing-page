@@ -9,7 +9,7 @@ const Header = () => {
         initial="hidden"
         animate="visible"
         variants={fadeRight}
-        className=" relative overflow-hidden md:drop-shadow-2xl md:min-w-[50vw] lg:h-[35rem]"
+        className="relative overflow-hidden md:drop-shadow-2xl md:min-w-[50vw] lg:h-[35rem]"
       >
         <img
           className="md:w-[30rem] md:relative m-auto md:mt-10 lg:w-[40rem]"

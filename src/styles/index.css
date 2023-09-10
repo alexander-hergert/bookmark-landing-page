@@ -18,7 +18,7 @@
 /* Accordion */
 
 .collapse-arrow .collapse-title:after {
-  content: url("images/icon-arrow.svg");
+  content: url("/images/icon-arrow.svg");
   width: 0;
   margin-right: 18px;
   color: white;
@@ -52,7 +52,6 @@ a {
 
 body {
   min-height: 100vh;
-  min-width: 100vw;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
 }
@@ -63,8 +62,4 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-/* DESKTOP DESIGN */
-@media only screen and (min-width: 800px) {
 }

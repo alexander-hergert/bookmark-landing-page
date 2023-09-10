@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { motion, useAnimate } from "framer-motion";
+import { shake } from "../animations";
 
 const Contact = () => {
+  const [scope, animate] = useAnimate();
   const [isError, setError] = useState(false);
   const regEmail = /[A-Za-z0-9\-\_\.\+]{1,64}@[A-Za-z0-9\-\_\.]+\.[a-zA-Z]+/;
 
@@ -9,6 +12,7 @@ const Contact = () => {
     const input = e.target[0].value;
     if (!regEmail.test(input)) {
       setError(true);
+      animate(scope.current, shake.animation, shake.duration);
     } else {
       e.target.submit();
     }
@@ -20,19 +24,19 @@ const Contact = () => {
 
   return (
     <section className="bg-primary-soft-blue py-14 w-[100vw] h-[24rem] md:h-[22rem]">
-      <div className="px-20">
+      <div className="px-20 max-sm:px-10">
         <article className="text-center text-white py-10 w-full">
           <p className="text-sm mb-4 tracking-widest">
             35,000 + ALREADY JOINED
           </p>
           <h2 className="md:text-2xl">Stay up-to-date with what we're doing</h2>
         </article>
-        <form
+        <motion.form
           onSubmit={handleSubmit}
           className="flex flex-col md:flex-row md:gap-5 justify-center items-start w-full"
           action=""
         >
-          <div className=" relative md:m-0 w-full md:max-w-[20rem]">
+          <div ref={scope} className=" relative md:m-0 w-full md:max-w-[20rem]">
             <input
               onFocus={handleFocus}
               aria-label="email"
@@ -61,7 +65,7 @@ const Contact = () => {
           >
             Contact Us
           </button>
-        </form>
+        </motion.form>
       </div>
     </section>
   );

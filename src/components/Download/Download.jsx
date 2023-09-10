@@ -13,7 +13,7 @@ const Download = () => {
       viewport={{ once: true }}
       className="mt-20 w-[100vw]"
     >
-      <article className="my-10">
+      <article className="my-10 m-auto md:w-[50vw]">
         <h2 className="text-center font-bold text-xl">
           Download the extension
         </h2>

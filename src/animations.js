@@ -60,3 +60,12 @@ export const fadeRight = {
     transition: { duration: 1 },
   },
 };
+
+export const shake = {
+  animation: {
+    x: [0, -10, 10, -10, 10, -5, 5, -5, 0],
+  },
+  duration: {
+    duration: 0.25,
+  },
+};
