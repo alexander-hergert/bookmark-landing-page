@@ -52,6 +52,7 @@ a {
 
 body {
   min-height: 100vh;
+  min-width: 100vw;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
 }

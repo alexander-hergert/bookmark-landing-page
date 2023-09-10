@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeLeft, fadeRight } from "../../../animations";
 
 const Detail = ({ title, src, content }) => {
   return (
@@ -6,7 +8,11 @@ const Detail = ({ title, src, content }) => {
       className="md:flex items-center md:h-[40rem] 
     lg:h-[30rem] xl:h-[35rem] mt-10"
     >
-      <figure
+      <motion.figure
+        initial="hidden"
+        whileInView={"visible"}
+        viewport={{ once: true }}
+        variants={fadeLeft}
         className=" relative overflow-hidden 
       md:drop-shadow-2xl md:min-w-[50vw] md:pb-[4rem] md:h-[40rem]"
       >
@@ -22,8 +28,14 @@ const Detail = ({ title, src, content }) => {
         md:h-[18rem] lg:h-[24rem] xl:h-[28rem]
          bg-primary-soft-blue rounded-br-[12rem]"
         ></div>
-      </figure>
-      <article className="p-10 mt-4 md:min-w-[50vw]">
+      </motion.figure>
+      <motion.article
+        initial="hidden"
+        whileInView={"visible"}
+        viewport={{ once: true }}
+        variants={fadeRight}
+        className="p-10 mt-4 md:min-w-[50vw]"
+      >
         <h2 className="text-3xl text-center font-bold md:text-left">{title}</h2>
         <p className="md:text-left text-neutral-grayish-blue text-center my-6">
           {content}
@@ -37,7 +49,7 @@ const Detail = ({ title, src, content }) => {
             More Info
           </a>
         </div>
-      </article>
+      </motion.article>
     </div>
   );
 };

@@ -1,20 +1,32 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeLeft, fadeRight } from "../animations";
 
 const Header = () => {
   return (
-    <header className="md:flex md:flex-row-reverse items-center w-[100vw] mt-10">
-      <figure className=" relative overflow-hidden md:drop-shadow-2xl md:min-w-[50vw]">
+    <header className="md:flex md:flex-row-reverse items-center w-[100vw] mt-10 lg:h-[35rem]">
+      <motion.figure
+        initial="hidden"
+        animate="visible"
+        variants={fadeRight}
+        className=" relative overflow-hidden md:drop-shadow-2xl md:min-w-[50vw] lg:h-[35rem]"
+      >
         <img
           className="md:w-[30rem] md:relative m-auto md:mt-10 lg:w-[40rem]"
           src="/images/illustration-hero.svg"
           alt="hero"
         />
         <div
-          className=" absolute top-28 md:top-28 lg:top-36 xl:top-44 left-1/4 z-[-1] w-full h-2/3 md:h-[26vh] 
-        lg:h-[30vh] xl:h-[34vh] bg-primary-soft-blue rounded-bl-[12rem]"
+          className=" absolute top-28 md:top-28 lg:top-36 xl:top-44 left-[25%] z-[-1] w-full h-2/3 md:h-[26vh] 
+        lg:h-[35vh] xl:h-[40vh] bg-primary-soft-blue rounded-bl-[12rem]"
         ></div>
-      </figure>
-      <article className="p-10 mt-4 md:min-w-[50vw] md:pl-[10%]">
+      </motion.figure>
+      <motion.article
+        initial="hidden"
+        animate="visible"
+        variants={fadeLeft}
+        className="p-10 mt-4 md:min-w-[50vw] md:pl-[10%]"
+      >
         <h1 className="text-3xl text-center font-bold md:text-left">
           A Simple Bookmark Manager
         </h1>
@@ -38,7 +50,7 @@ const Header = () => {
             Get it on Firefox
           </a>
         </div>
-      </article>
+      </motion.article>
     </header>
   );
 };

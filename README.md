@@ -54,6 +54,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - Add active styles and functionality to Contact.
 - Add footer active states and change some styles on Contact component.
 - Improve accessibility and SEO.
+- Add animations and some style changes.
 
 ### Built with
 

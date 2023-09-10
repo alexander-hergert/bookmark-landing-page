@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeUp } from "../../animations";
 
 const Card = ({ title, src, alt, version }) => {
   let position;
@@ -7,7 +9,13 @@ const Card = ({ title, src, alt, version }) => {
   if (alt === "opera-icon") position = "md:relative md:top-10";
 
   return (
-    <div className={`md:min-w-[14rem] m-5 card w-80 bg-base-100 shadow-xl ${position}`}>
+    <motion.div
+      initial={"hidden"}
+      whileInView={"visible"}
+      variants={fadeUp}
+      viewport={{ once: true }}
+      className={`md:min-w-[14rem] m-5 card w-80 bg-base-100 shadow-xl ${position}`}
+    >
       <figure className="px-10 pt-10">
         <img src={src} alt={alt} className="rounded-xl" />
       </figure>
@@ -25,7 +33,7 @@ const Card = ({ title, src, alt, version }) => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

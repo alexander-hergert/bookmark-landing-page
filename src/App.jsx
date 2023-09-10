@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <main>
+      <main className="min-w-[100vw]">
         <Features />
         <Download />
         <FAQ />

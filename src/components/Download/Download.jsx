@@ -1,10 +1,18 @@
 import React from "react";
 import { download } from "../../data";
 import Card from "./Card";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../animations";
 
 const Download = () => {
   return (
-    <section className="p-5 w-[100vw]">
+    <motion.section
+      initial={"hidden"}
+      whileInView={"visible"}
+      variants={fadeIn}
+      viewport={{ once: true }}
+      className="mt-20 w-[100vw]"
+    >
       <article className="my-10">
         <h2 className="text-center font-bold text-xl">
           Download the extension
@@ -19,7 +27,7 @@ const Download = () => {
           <Card key={item.id} {...item} />
         ))}
       </article>
-    </section>
+    </motion.section>
   );
 };
 
