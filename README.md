@@ -62,15 +62,4 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 - [React](https://reactjs.org/)
 - [Tailwind-CSS](https://tailwindcss.com/docs/installation)
 - [Daisy-UI](https://daisyui.com/docs/install/)
-- [React-Testing-Library](https://testing-library.com/docs/react-testing-library/intro/)
-- [Jest](https://jestjs.io/)
-
-### What I learned
-
-### Continued development
-
-### Useful resources
-
-- [Setup RTL and Jest in Vite React](https://zaferayan.medium.com/how-to-setup-jest-and-react-testing-library-in-vite-project-2600f2d04bdd)
-
-## Acknowledgments
+- [Framer](https://www.framer.com/motion/introduction/)

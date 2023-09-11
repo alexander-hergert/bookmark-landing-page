@@ -1,5 +1,3 @@
-import { nanoid } from "nanoid";
-
 export const tabs = [
   { id: "1", title: "Simple Bookmarking" },
   {
@@ -36,21 +34,21 @@ export const features = [
 
 export const download = [
   {
-    id: nanoid(),
+    id: "1",
     title: "Add to Chrome",
     src: "/images/logo-chrome.svg",
     alt: "chrome-icon",
     version: `Minimum version 62`,
   },
   {
-    id: nanoid(),
+    id: "2",
     title: "Add to Firefox",
     src: "/images/logo-firefox.svg",
     alt: "firefox-icon",
     version: `Minimum version 55`,
   },
   {
-    id: nanoid(),
+    id: "3",
     title: "Add to Opera",
     src: "/images/logo-opera.svg",
     alt: "opera-icon",
@@ -60,26 +58,26 @@ export const download = [
 
 export const faq = [
   {
-    id: nanoid(),
+    id: "1",
     question: "What is Bookmark?",
     answer: `Bookmark is a digital or physical marker used to save and easily
     access a specific location or webpage.`,
   },
   {
-    id: nanoid(),
+    id: "2",
     question: "How can I request a new browser?",
     answer: `You can request a new browser by downloading one from a trusted
                 source or by installing an alternative browser through your
                 device's app store or official website.`,
   },
   {
-    id: nanoid(),
+    id: "3",
     question: "Is there a mobile app?",
     answer: `Yes, there is a mobile app available for download. You can find
                 it on the app store or the official website.`,
   },
   {
-    id: nanoid(),
+    id: "4",
     question: "What about other Chromium browsers?",
     answer: `Other Chromium-based browsers offer similar features and
                 performance to Google Chrome due to their shared underlying
