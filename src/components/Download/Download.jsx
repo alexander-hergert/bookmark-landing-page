@@ -11,7 +11,7 @@ const Download = () => {
       whileInView={"visible"}
       variants={fadeIn}
       viewport={{ once: true }}
-      className="md:mt-32 w-full"
+      className="mt-32 w-full"
     >
       <article className="my-10 m-auto md:w-[50%]">
         <h2 className="text-center font-bold text-3xl">
