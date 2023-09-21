@@ -4,9 +4,9 @@ import { faq } from "../../data";
 
 const FAQ = () => {
   return (
-    <section className="mb-28 w-[100vw] mt-20">
+    <section className="mb-28 w-full mt-40">
       <article className="p-5">
-        <h2 className="text-center font-bold text-xl">
+        <h2 className="text-center font-bold text-3xl">
           Frequently Asked Questions
         </h2>
         <p className="text-center text-neutral-grayish-blue my-5">
@@ -22,7 +22,7 @@ const FAQ = () => {
         </div>
         <a
           className="p-2 h-[3rem] w-[7rem] rounded-lg block m-auto text-center shadow-xl capitalize bg-primary-soft-blue
-           text-white mt-10 hover:bg-white hover:text-primary-soft-blue hover:border-2 hover:border-primary-soft-blue"
+           text-white mt-16 hover:bg-white hover:text-primary-soft-blue hover:border-2 hover:border-primary-soft-blue"
           href=""
         >
           More Info

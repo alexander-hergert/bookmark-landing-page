@@ -4,12 +4,12 @@ import { fadeLeft, fadeRight } from "../animations";
 
 const Header = () => {
   return (
-    <header className="md:flex md:flex-row-reverse items-center w-[100vw] mt-10 lg:h-[35rem]">
+    <header className="md:flex md:flex-row-reverse items-center w-full mt-10 lg:h-[35rem]">
       <motion.figure
         initial="hidden"
         animate="visible"
         variants={fadeRight}
-        className="relative overflow-hidden md:drop-shadow-2xl md:min-w-[50vw] lg:h-[35rem]"
+        className="relative overflow-hidden md:drop-shadow-2xl md:min-w-[50%] lg:h-[35rem]"
       >
         <img
           className="md:w-[30rem] md:relative m-auto md:mt-10 lg:w-[40rem]"
@@ -25,9 +25,9 @@ const Header = () => {
         initial="hidden"
         animate="visible"
         variants={fadeLeft}
-        className="p-10 mt-4 md:min-w-[50vw] md:pl-[10%]"
+        className="p-10 mt-4 md:min-w-[50%] md:pl-[10%]"
       >
-        <h1 className="text-3xl text-center font-bold md:text-left">
+        <h1 className="text-4xl text-center font-bold md:text-left">
           A Simple Bookmark Manager
         </h1>
         <p className="md:text-left text-neutral-grayish-blue text-center my-6">

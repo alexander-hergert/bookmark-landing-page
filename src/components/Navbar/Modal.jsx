@@ -5,7 +5,7 @@ const Modal = () => {
     <dialog id="my_modal_3" className="modal md:hidden">
       <form
         method="dialog"
-        className="absolute p-10 modal-box rounded-none max-w-full w-[100vw] min-h-screen bg-opacity-90 bg-neutral-very-dark-blue"
+        className="absolute p-10 modal-box rounded-none max-w-full w-full min-h-screen bg-opacity-90 bg-neutral-very-dark-blue"
       >
         <button className="btn btn-sm btn-circle btn-ghost absolute right-8 top-8">
           <img src="/images/icon-close.svg" alt="icon-close" />

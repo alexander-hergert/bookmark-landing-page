@@ -11,10 +11,10 @@ const Download = () => {
       whileInView={"visible"}
       variants={fadeIn}
       viewport={{ once: true }}
-      className="mt-20 w-[100vw]"
+      className="md:mt-32 w-full"
     >
-      <article className="my-10 m-auto md:w-[50vw]">
-        <h2 className="text-center font-bold text-xl">
+      <article className="my-10 m-auto md:w-[50%]">
+        <h2 className="text-center font-bold text-3xl">
           Download the extension
         </h2>
         <p className="my-5 text-center text-neutral-grayish-blue">

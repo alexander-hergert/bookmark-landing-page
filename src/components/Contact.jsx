@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-primary-soft-blue py-14 w-[100vw] h-[24rem] md:h-[22rem]">
+    <section className="bg-primary-soft-blue py-14 w-full h-[24rem] md:h-[22rem]">
       <div className="px-20 max-sm:px-10">
         <article className="text-center text-white py-10 w-full">
           <p className="text-sm mb-4 tracking-widest">

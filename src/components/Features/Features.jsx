@@ -12,7 +12,7 @@ const Features = () => {
   };
 
   return (
-    <section className="w-[100vw] mt-20">
+    <section className="w-full md:mt-32">
       <FeaturesTitle />
       <FeatureTabs
         handleClick={handleClick}

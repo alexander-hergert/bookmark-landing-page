@@ -13,8 +13,8 @@ const Detail = ({ title, src, content }) => {
         whileInView={"visible"}
         viewport={{ once: true }}
         variants={fadeLeft}
-        className=" relative overflow-hidden 
-      md:drop-shadow-2xl md:min-w-[50vw] md:pb-[4rem] md:h-[40rem]"
+        className="relative overflow-hidden 
+      md:drop-shadow-2xl md:min-w-[50%] md:pb-[4rem] md:h-[40rem]"
       >
         <img
           className="p-10 w-[85vw] md:relative m-auto 
@@ -34,7 +34,7 @@ const Detail = ({ title, src, content }) => {
         whileInView={"visible"}
         viewport={{ once: true }}
         variants={fadeIn}
-        className="p-10 mt-4 md:min-w-[50vw]"
+        className="p-10 mt-4 md:min-w-[50%]"
       >
         <h2 className="text-xl text-center font-bold md:text-left">{title}</h2>
         <p className="md:text-left md:w-[75%] text-neutral-grayish-blue text-center my-6">
